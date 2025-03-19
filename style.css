@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 2rem; /* Better than xx-large */
+    font-weight: bold;
+    color: rgb(255, 253, 253);
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border-color: rgb(7, 89, 161);
+    border-width: 30px;
+
+}
+
+.button {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    border: none;
+    padding: 12px 20px; /* Added padding */
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.container {
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-neon-gaming-photocall_23-2149860761.jpg?semt=ais_hybrid");
+    background-size: cover;
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+    display: flex;          
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Align everything in the center */
+    height: 100vh;
+    padding: 20px; /* Add some spacing */
+}
+
+#number {
+    height: 40px; /* Slightly increased height */
+    width: 250px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; /* Added spacing */
+}
+#message{
+    display:none;
+    font-size: 1.5em;
+    background-color: #0056b3;
+    color: aqua;
+    padding: 6px 15px;
+
+}
+#lives-text{
+    font-size:2em;
+    font-weight: 500;
+    color: #ccc;
+}
+.input-container{
+    margin-top: 30px;;
+    margin-bottom: 20px;
+}
